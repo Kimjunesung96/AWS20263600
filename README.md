@@ -13,11 +13,11 @@ GitHub의 `main` 브랜치에 코드가 push되면 자동으로 실행되는 CI/
 
 ## 3. 링크 정보
 - **AWS S3 호스팅 URL (과제 1)**: [http://mybucket-20263600.s3-website-us-east-1.amazonaws.com/]
-- **Github Actions CI/CD 시연 영상**: [유튜브 링크 삽입]
+- **Github Actions CI/CD 시연 영상**: [https://youtu.be/C_DT4ydaHwI]
 
 ---
 
 ## 4. AWS Amplify 호스팅 (과제 2)
 위 과제 1의 GitHub Repository를 AWS Amplify 서비스와 연결하여 자동 빌드 및 호스팅되도록 구성하였습니다.
 - **AWS Amplify URL**: [https://main.d2i5x2h47cvqgi.amplifyapp.com/]
-- **AWS Amplify 서비스 활용 영상**: [유튜브 링크 삽입]
+- **AWS Amplify 서비스 활용 영상**: [https://youtu.be/bTPhOmg155s]
