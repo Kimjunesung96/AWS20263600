@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# 📚 미니 IT 도서관 대출 시스템
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1. 시스템 및 기능 소개
+본 프로젝트는 생성형 AI의 도움을 받아 React로 구현된 웹 시스템입니다.
+- **기능 1**: IT 관련 도서 목록 확인
+- **기능 2**: 실시간 도서 대출 및 반납 상태 토글 (대출 시 빨간색, 반납 시 초록색 UI 변경)
 
-## Available Scripts
+## 2. Github Actions 환경 소개 (CI/CD)
+GitHub의 `main` 브랜치에 코드가 push되면 자동으로 실행되는 CI/CD 파이프라인을 구축했습니다.
+1. `ubuntu-latest` 환경에서 Node.js를 세팅
+2. `npm install` 및 `npm run build`를 통해 React 정적 파일 생성
+3. GitHub Secrets에 저장된 AWS Academy 자격 증명을 사용하여 AWS S3 버킷으로 빌드된 파일 자동 동기화 (`aws s3 sync`)
 
-In the project directory, you can run:
+## 3. 링크 정보
+- **AWS S3 호스팅 URL (과제 1)**: [본인의 S3 웹 호스팅 엔드포인트 URL 삽입]
+- **Github Actions CI/CD 시연 영상**: [유튜브 링크 삽입]
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 4. AWS Amplify 호스팅 (과제 2)
+위 과제 1의 GitHub Repository를 AWS Amplify 서비스와 연결하여 자동 빌드 및 호스팅되도록 구성하였습니다.
+- **AWS Amplify URL**: [Amplify에서 제공받은 도메인 삽입]
+- **AWS Amplify 서비스 활용 영상**: [유튜브 링크 삽입]
